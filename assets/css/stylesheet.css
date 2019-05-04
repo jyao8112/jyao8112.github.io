@@ -1,0 +1,186 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+  background: #f1f1f1;
+}
+
+h1 {color: #5191fd
+  font-size: 20px;
+  font-family: "Times New Roman";
+  font-size: 25px;
+  font-weight: bold;
+  color: #5191fd;
+}
+p  {
+  color: #0d0e11;
+  font-family: "Times New Roman";
+  font-size: 100%;
+  margin-right:40px;
+  background: #f1f1f1}
+
+h2 {color: #5191fd
+  font-size: 20px;
+}
+h3 {position:center;
+  color: #5191fd;
+  font-size:15px;
+  margin-left: 80px;
+}
+
+.navbar-default .navbar-nav .navbar-right {
+  display: inline-block;
+  position: center;
+  padding: 20px;
+  margin-right: 40px;
+  margin-left: 10px;
+  border-radius: 3px;
+  background: #5191fd;
+}
+.navbar-brand {
+  display: inline-block;
+  font-size: 40px;
+  font-family: "Times New Roman";
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 0px;
+  margin-top:10px;
+  cursor: pointer;
+  border-radius: 3px;
+  color: #f1f1f1;
+}
+.navbar li {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 3px;
+}
+
+
+
+.navbar-header {
+    background-color: #5191fd;
+    margin-right: 10px;
+  margin-left: 10px;
+  }
+
+
+.post {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.imageNav-header {
+  margin-left: 30px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-family: "Times New Roman";
+  font-size: 40px;
+  font-weight: bold;
+  color: #5191fd;
+}
+.imageNav-area {
+  width: 40%;
+  padding: 30px 30px 43px;
+  margin-top: 32px;
+  background-color: #fff;
+}
+.imageNav-content{  
+  width: 80%;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: #fff;}
+
+
+.imageNav-image {
+  width: 140px;
+  height:140px;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.content-hr 
+{border: 2px 
+  solid #cdcdcd;
+margin-right: 10px}
+
+.content-header{
+  color: #5191fd;
+  font-size: 40px;
+  padding-top: 10px;
+  background: #0000;
+}
+.content
+{ margin-top: 20px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding-top: 10px;
+  padding:10px;
+  background: #0000;
+}
+.content-image
+{ margin-left: 25px;
+  margin-bottom: 40px;
+  width:680px}
+
+.description-header {
+  margin-bottom: 2opx;
+  font-family:  "Times New Roman";
+  font-size: 32px;
+  font-weight: bold;
+  color:  #5191fd;
+}
+
+.description-content {
+
+  padding: 30px;
+  margin-top: 32px;
+  background-color: #fff;
+}
+
+.description-text {
+  padding-bottom: 20px;
+  background-color: #fff;
+}
+
+.comparison-image 
+{ width: 200px
+  padding: 30px;
+margin-top: 32px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: #666;
+}
+@media only screen and (max-width: 767px) {
+  .navbar-header{color:  #5191fd;
+
+  }
+  .description-content {
+  padding: 0;
+  margin-top: 0;
+}
+ .imageNav-image {
+  width: 100px;
+  height:100px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.imageNav-header {
+  margin-bottom: 15px;
+  font-family: "Times New Roman";
+  font-size: 20px;
+  font-weight: bold;
+  color: #5191fd;
+}
