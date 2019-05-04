@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude Analysis Dashboard with Attitude</title>
+ <!--Stylesheet -->
+  <link rel="stylesheet" href="assets/css/reset.css" >
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/stylesheet.css" media="screen">
+
+</head>
+
+<body>
+  <!-- Start of navbar -->
+  <nav class="navbar navbar-dark bg-primary">
+    <div class="container navbar-custom">
+      <div class="row">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+        <div class="col-xs-9 ">
+          <a class="navbar-brand" href="index.html" id="Title">Lattitude</a>
+        </div>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="data.html">Data</a></li>
+          <li><a href="comparison.html">Comparision</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plot <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="temp.html">Max Temperature</a></li>
+              <li><a href="humidity.html">Humidity</a></li>
+              <li><a href="cloudiness.html">Cloudiness</a></li>
+              <li><a href="wind.html">Wind Speed</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!-- End of navbar -->
+
+    <!-- Start of container -->
+    <div class="container">
+      <section class="row">
+        <div class="col-md-8">
+          <article class="description-content">
+            <h1 class="description-header">Cloudiness</h1>
+            <hr class="description-hr"/>
+            <img src="./assets/images/Fig3.png" alt="" class="img-responsive"/>
+            <p>This figure show the relationship between Latitude and Cloudiness, however the relationship is not strong. </p>
+          </article>
+        </div>
+        <div class="col-md-4">
+
+         <!-- Visualizations Area -->
+         <section id="imageNav-area">
+          <div class="imageNav-content">
+            <h2 class="imageNav-header">Visualizations</h2>
+            <div id="images">
+              <a href="temp.html"><img src="assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="imageNav-image"></a>
+              <h3> Max Temperature</h3>
+              <a href="humidity.html"><img src="assets/images/Fig2.png" alt="Latitude vs. Humidity" class="imageNav-image"></a>
+              <h3> Humidity</h3>
+              <a href="cloudiness.html"><img src="assets/images/Fig3.png" alt="Latitude vs. Cloudiness" class="imageNav-image"></a>
+              <h3> Cloudiness</h3>
+              <a href="wind.html"><img src="assets/images/Fig4.png" alt="Latitude vs. Wind Speed" class="imageNav-image"></a>
+              <h3> Wind Speed</h3>
+            </div>
+          </div>
+        </section>
+      </div>
+        <!-- End of the Visualizations -->
+    </div>
+    </section>
+  </div>
+
+  <!-- End of container -->
+
+  <!-- Footer -->
+<footer class="footer">
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> Coding BootCamp</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>
